@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+body{}
+form{ width:600px; height:240px; margin:auto; border:1px solid red;}
+form p{ margin:20px; color:blue; font-size:24px;}
+input{ font-size:30px; margin:20px;}
+input[type='submit']{ float:right;}
+.media{ width:880px; margin:auto;}
+.media video{ width:280px;}
+.media img{ width:280px;}
