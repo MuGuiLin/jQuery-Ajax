@@ -32,3 +32,5 @@ jQuery-Ajax 文件上传，带进度条
 			<button type="button" class="send_btn" onclick="UploadFileFn()">开始上传文件</button>
 			<div class="clear"></div>
 		</form>
+		
+		
