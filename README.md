@@ -2,6 +2,8 @@
 
 >代码描述：上传进度条，%百分比显示，Ajax文件上传 带进度条
 
+![image](https://github.com/MuGuiLin/jQuery-Ajax/blob/master/img/%E6%95%88%E6%9E%9C%E5%9B%BE.jpg?raw=true)
+
 HTML5 file 在选择上传文件的时候，根据需要可限制指定的文件类型(***默认任意类型*** )。在 input type="file" 加上 accept="指定要上传的文件类型"即可
 
 -------------
@@ -17,7 +19,7 @@ accept=".jpg, .jpeg .png, .gif, .bmp" 只能上传指定的这些图片文件
 accept="image/*" image表示图片，*表示所有支持的格式， video/* video表示视频，*表示所有支持的格式
 
 <br/>
-**<i class="icon-file"></i>注： 如果不加accept属性，则上传任意类型的文件(默认)**
+**注： 如果不加accept属性，则上传任意类型的文件(默认)**
 
 Html5 file 在选择上传文件的时候，根据需要可限制选择 1个 或 多个 文件。在 input type="file" 加上 multiple 属性 即可!
 
