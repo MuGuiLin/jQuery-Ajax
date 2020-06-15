@@ -11,12 +11,14 @@ HTML5 file 在选择上传文件的时候，根据需要可限制指定的文件
 ```
 <input type="file" id="oFile" name="myFiles" accept=".doc, .docx, .xls, .txt" onchange="FileChangeFn(event)" />
 ```
->_accept=".doc, .docx, .xls, .txt" 只能上传word, exls, .txt文件
-accept=".rar, .zip" 只能上传压缩文件
-accept=".mp3" 只能上传mp3文件
-accept=".mp4, .avi, .swf, .mpeg" 只能上传视频文件
-accept=".jpg, .jpeg .png, .gif, .bmp" 只能上传指定的这些图片文件
-accept="image/*" image表示图片，*表示所有支持的格式， video/* video表示视频，*表示所有支持的格式
+
+* accept=".doc, .docx, .xls, .txt" 只能上传word, exls, .txt文件
+* accept=".rar, .zip" 只能上传压缩文件
+* accept=".mp3" 只能上传mp3文件
+* accept=".mp4, .avi, .swf, .mpeg" 只能上传视频文件
+* accept=".jpg, .jpeg .png, .gif, .bmp" 只能上传指定的这些图片文件
+* accept="image/*" image表示图片，*表示所有支持的格式， video/* video表示视频，*表示所有支持的格式
+* accept="video/mp4, .avi, audio/mp3, .ogg, image/jpeg, .png, .gif" 可选择、指定多种不同类型、格式
 
 <br/>
 **注：如果不加accept属性，则上传任意类型的文件(默认)**
